@@ -648,7 +648,8 @@ body.lightmode .form select{
 }
 
 .nav-link {
-    font-size: var(--font-size-base);
+    /* font-size: var(--font-size-base); */
+    font-size: var(--font-size-lg);
     font-weight: var(--font-weight-semibold);
     line-height: var(--line-height-loose);
     color: var(--primary);
