@@ -2,14 +2,14 @@ Promise.all([
     fetch("header.html").then(res => res.text()),
     fetch("footer.html").then(res => res.text()),
     fetch("sidebar.html").then(res => res.text()),
-    fetch("search-form.html").then(res => res.text())
+    //fetch("search-form.html").then(res => res.text())
   ])
   .then(([headerHTML, footerHTML, sidebarHTML, searchHTML]) => {
     $("#header").html(headerHTML);
     $("#footer").html(footerHTML);
     $("#sidebar").html(sidebarHTML);
     $("#edit-sidebar").html(sidebarHTML);
-    $("#search-form-container").html(searchHTML);
+    //$("#search-form-container").html(searchHTML);
   })
   .then(() => {
     initBannerVideo();
@@ -19,7 +19,7 @@ Promise.all([
     initSidebarDropdown();
     initCounter();
     initThemeSwitch();
-    initSearchBar();
+    //initSearchBar();
     initSubmitContact();
     initSubmitNewsletter();
     initAnimateData();
