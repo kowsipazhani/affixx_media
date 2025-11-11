@@ -4164,7 +4164,8 @@ body.lightmode .accordion-button:not(.collapsed)::after{
 
 .cta-service-banner{
     /*background-image: url('../image/collaborative-process-of-multicultural-skilled-peo-AN9FZBQ-1024x683.jpg');*/
-    background-image: url('../image/AI.jpg');
+    /*background-image: url('../image/AI.jpg');*/
+    background-image: url('../image/blog_banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -5243,6 +5244,18 @@ body.lightmode .cta-service-banner::before{
 .pl-1{
     padding-left: 1rem !important;
 }
-
+.blog_title_heading{
+    /*background-image: linear-gradient(284deg, #ffffffab 3%, var(--primary) 100%) !important;*/
+    background-image: linear-gradient(284deg, #040404 50%, var(--primary) 100%) !important;
+}
+#new-banner-video-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
 
 
